@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Underground</title>
+        <link rel = "stylesheet" type "text/css" href="{{ url_for('static', filename='style.css') }}" />
+        <link rel="icon" href="{{ url_for('static', filename='potato.jpg') }}" type="image/png">
+    </head>
+    <body style = background-image:url({{url}})>
+        <div class="outer">
+            <div class="middle">
+                <div class="inner">
+                    <p>
+                      <b><a href = "{{tweetLink}}" style="text-decoration:none;color: inherit;">
+                          {{aTweet}}
+                       </a></b><br>
+                       -
+                       <b><a href = "{{authorLink}}" style="text-decoration:none;color: inherit;">
+                           {{anAuthor}}</a></b><br>
+                      <img src="{{authorPic}}">
+                    </p>
+                </div>
+              </div>
+        </div>
+    </body>
+</html>

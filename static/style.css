@@ -1,0 +1,50 @@
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 95% 95%;
+    background-color: #d9d9d9;
+}
+            
+p {
+    font-family: "Impact";
+    font-style: oblique;
+    font-size: 30px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: black;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 25%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 25px;
+    background: #333333;
+    opacity: 0.5;
+    
+    width:80%;
+    margin:0 auto; 
+    text-align:center
+}
+
+.footer{
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+}
+
+.removeDecorations{
+    text-decoration:none;
+    color: inherit;
+}
