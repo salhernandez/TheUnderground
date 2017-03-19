@@ -2,6 +2,7 @@
 ####Salvador Hernandez
 ####Project 1: REST Api Integration
 ####CST-438: Software Engineering
+![TheUnderground](http://res.cloudinary.com/djdt5maoi/image/upload/c_scale,w_700/v1489900508/the_underground_ntqqtj.png)
 
 View the app here: [https://warm-brook-56819.herokuapp.com/](https://warm-brook-56819.herokuapp.com/)
 
